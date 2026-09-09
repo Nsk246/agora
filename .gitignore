@@ -3,7 +3,6 @@ node_modules/
 *.log
 
 .claude/
-!.claude/settings.json
 .claude/settings.local.json
 
 # BEGIN AI-DLC:gitignore
@@ -91,3 +90,4 @@ aidlc/diagnostics/
 # aidlc/spaces/*/intents/*/<phase>/<stage>/*.md (artifacts + diary).
 .claude/settings.local.json
 # END AI-DLC:gitignore
+.claude/settings.json.bak
